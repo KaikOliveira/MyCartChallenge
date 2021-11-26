@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "100MB",
+      "price": 79.90,
+      "category": "internet"
+    },
+    {
+      "id": 2,
+      "title": "200MB",
+      "price": 129.00,
+      "category": "internet"
+    },
+    {
+      "id": 3,
+      "title": "300MB",
+      "price": 99.90,
+      "category": "internet"
+    },
+    {
+      "id": 4,
+      "title": "Ilimitado",
+      "price": 44.99,
+      "category": "fixo"
+    },
+    {
+      "id": 5,
+      "title": "Fixo Brasil",
+      "price": 24.99,
+      "category": "fixo"
+    },
+    {
+      "id": 6,
+      "title": "Ultimate HD",
+      "price": 34.99,
+      "category": "tv"
+    },
+    {
+      "id": 7,
+      "title": "Full HD",
+      "price": 14.99,
+      "category": "tv"
+    }
+  ]
+}

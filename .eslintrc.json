@@ -27,7 +27,7 @@
     "semi": "error",
     "prettier/prettier": "error",
     "react-hooks/rules-of-hooks": "off",
-    "react-hooks/exhaustive-deps": "warn",
+    "react-hooks/exhaustive-deps": "off",
     "react/react-in-jsx-scope": 0,
     "react/display-name": 0,
     "react/prop-types": "off",

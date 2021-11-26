@@ -16,8 +16,8 @@ export default class MyDocument extends Document {
           />
 
           <meta name="theme-color" content="#512978" />
-
-          <title>Meu Carrinho</title>
+          {/* 
+          <title>Meu Carrinho</title> */}
         </Head>
 
         <body>

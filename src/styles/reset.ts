@@ -12,17 +12,11 @@ export default createGlobalStyle`
     --background: #f5f5f5;
     --white: #fff;
     --black: #000505;
-    --purple: #512978;
-
+    --purple: #7A34B6;
+    --red: #e54b4b;
     --text:  #323B4B;
-    --text-low: #6A777D;
-
     --gray: #CBD1D5;
-    --gray-low: #F7F7FC;
-    --gray-nardo: #76899F;
     --border: #E8EBF0;
-
-    --placeholder: #A0A3BD;
   }
   html {
     font-size: 62.5%; /* = 10px */
@@ -54,9 +48,5 @@ export default createGlobalStyle`
 
   button {
     cursor: pointer;
-  }
-
-  .Toastify__toast-container {
-    z-index: 99999999 !important;
   }
 `;
