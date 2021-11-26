@@ -7,9 +7,24 @@ export const Wrapper = styled.div`
   align-items: center;
   justify-content: center;
   background: var(--white);
+`;
 
-  @media (max-height: 756px) {
+export const Container = styled.section`
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 890px;
+
+  @media (max-width: 906px) {
+    /* background: red; */
+    padding: 0 1.8rem;
+  }
+
+  @media (max-width: 906px) {
+    width: 100vw;
     height: 100vh;
+    padding: 2rem;
 
     overflow-y: auto;
     overflow-x: hidden;
@@ -27,18 +42,25 @@ export const Wrapper = styled.div`
       background-color: #7a34b680;
     }
   }
-`;
 
-export const Container = styled.section`
-  height: fit-content;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  max-width: 890px;
+  @media (max-height: 758px) {
+    height: 100vh;
+    padding: 2rem;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
 
-  @media (max-height: 756px) {
-    height: 100%;
-    padding: 10rem 0;
+    &::-webkit-scrollbar {
+      width: 0.5rem;
+    }
+
+    &::-webkit-scrollbar-track {
+      background: rgba(0, 0, 0, 0.1);
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: #7a34b680;
+    }
   }
 
   > div {
